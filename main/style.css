@@ -26,7 +26,7 @@ body {
 /* mobile first  */
 main {
   min-height: 100%;
-  display: flex;
+  display: flex !important;
   flex-direction: column;
   gap: 40px;
   padding: 24px;
@@ -47,7 +47,7 @@ main {
 }
 
 .score-container {
-  --diameter: 100px;
+  --diameter: 170px;
   min-width: var(--diameter);
   min-height: var(--diameter);
   padding: 40px 32px 24px;
@@ -108,8 +108,9 @@ main {
 
 /* Divider */
 h1 {
-  font-size: 24px;
+  font-size: 24px !important;
   font-weight: 700;
+  margin: 0 !important;
 }
 
 /* Summary section (white) */
